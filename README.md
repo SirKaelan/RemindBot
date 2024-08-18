@@ -16,4 +16,14 @@ This runs the compiled javascript file and the Discord bot will boot up
 
 ## Important
 
-You will need to create a `.env` file that contains exactly the fields `DISCORD_BOT_TOKEN`, `DISCORD_CLIENT_ID`, `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET` and `TWITCH_AUTH_CODE`. The values for those fields can be received from both Discord's website and Twitch.
+You will need to create a `.env` file in the <ins>root directory</ins> of the project with exactly this format:
+
+```
+DISCORD_BOT_TOKEN=<your discord token>
+DISCORD_CLIENT_ID=<your discord client id>
+TWITCH_CLIENT_ID=<your twitch client id>
+TWITCH_CLIENT_SECRET=<your twitch client secret>
+TWITCH_AUTH_CODE=<your twitch authorization code>
+```
+
+Replace the values for these fields, the tokens/ids can be received from Discord's and Twitch's websites.
